@@ -1,0 +1,27 @@
+/*
+  Text Decoration: to decorate the text
+  Text Transformation: to change smoething in the text
+*/
+
+div {
+    background-color: #f9f9f9;
+    /*text-decoration: overline;*/
+    /*
+    text-decoration: line-through;
+    text-decoration: underline;
+    text-decoration: overline;
+    */
+
+    /*
+    it is best to make the customization by using CSS 
+    that means if you want the letters capital don't write them capital in html
+    but do this part in css ysing text-transform
+    */
+    text-transform: lowercase;
+    /*
+    text-transform: uppercase;
+    text-transform: capitalize;
+    text-transform: lowercase;
+    */
+}
+ 
