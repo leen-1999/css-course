@@ -1,0 +1,35 @@
+div {
+    background-color: red;
+    padding: 10px;
+   display: inline-block;
+    min-width: 400px;
+    /* if you give the width: number any way the content the width will not chnge according to the content
+   but if you want the width change according to the content you will say min-width: number;
+   and you can specify the max-width: number; to not exceed it
+   if the min-width=max-width you don't need to specify min and max , it will be enough to say width: number; 
+   */
+   /*
+   features of using min and max with width 
+
+   --- To make a range between max and min 
+   --- To use max oneself => the content will not exceed the limit in vision
+   --- To use min oneself => the content start from min and can goes n without limitation
+   */
+
+   /*
+    it is same with height that we have height, min-height, max-height
+    and everything is same with width 
+    if you don't the specify anything for height that is the default value is auto which conent can extend and goes on
+   */
+
+/*
+imprtant note:
+it is not the best practise to make block element look like inline by using  display: inline-block;
+in order to let the block volume(size) be rational with content
+but the best practise for that is using width: fit-content;
+by this way we let the element as block element and at the same time the content fit by its size  
+*/
+
+}
+
+
