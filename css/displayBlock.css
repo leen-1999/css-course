@@ -1,0 +1,37 @@
+/*
+  Block like (Div)
+--- Take Full Width If no Width
+--- Add Line Break Before itself and after
+--- Respect Padding, Margin, Width, Height
+
+  Inline like(span)
+--- Do Not Respect Width, Height
+--- Respect Padding And Margin [ Just Left + Right]
+--- Do Not Add Line Break
+
+  Inline Block
+--- Allow Elements Before And After It
+--- Respect Padding, Margin, Width, Height
+*/
+
+ /*div {
+    background-color: #eee;
+    padding: 10px;
+    margin: 10px;
+}*/
+
+/*span {
+    background-color: rgb(161, 11, 11);
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    height: 30px;
+}*/
+span {
+    background-color: #eee;
+    display: inline-block;
+    padding: 10px;
+    margin: 20px;
+    width: 300px;
+    height: 50px;
+}
