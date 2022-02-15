@@ -1,0 +1,16 @@
+div {
+    background-color: azure;
+    padding: 10px;
+    width: 70%;
+    margin: auto;
+    /* Border have three values --> border volume: width
+                                --> border color 
+                                --> border style*/
+    border-width: 10px; /* like padding top right bottom left */
+    border-color: chartreuse; /* has four directions as top right bottom left*/
+    border-style: solid; /*the most used styles are solid and dashed
+                            and also border style has four directions top right bottom left*/
+   /* border: 10px solid blue; this is shorthand code */
+   /* you can customize with shorthand code like border: 10px 20px solid red */
+
+}
