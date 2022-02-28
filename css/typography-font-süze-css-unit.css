@@ -1,0 +1,38 @@
+ /*
+ 
+   CSS Units
+     px
+     em => Time
+     rem => Root Time which the root element is html if you don't specify a new thing in html the default one is 16px
+     <html lang="en" style="font-size: 100px;">
+     vw => view Port width
+     percentage  takes it according to the parent font size
+
+    Read 
+      vmin
+      vh
+
+   1em = 16px Thıs Is Wrong
+
+   Default Font Size For Web Page Is 16px
+ */
+
+/* body {
+     font-size: 40px;
+ } 
+  div span {
+   /*  font-size: smaller;*/
+     /*font-size: larger;*/
+    /* font-size: 2em;*/
+   /* font-size: 2rem; */
+  /* font-size: 100%; the same size with parent which is div 20px
+   font-size: 150%; 20px + the half of it is 10px =30px of parent */ 
+  
+  
+ 
+   div {
+    font-size: 5vp;
+   
+     
+ }
+ 
