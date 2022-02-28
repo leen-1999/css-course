@@ -1,0 +1,55 @@
+
+<!-- !+tab give us the next codes
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>   
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS</title>
+    <!-- css file name can be main, master, style, or anything you want -->
+
+    <!-- The ways to 'nvoke css files are three -->
+    <!--External Style --> <!--Outside the page-->
+    <link rel="stylesheet" href="css/master.css">
+   <!--Internal style--> <!--css codes inside the page-->
+    <style>
+        .special{
+            color:cyan
+        }
+
+       #identity {
+            color:darkcyan;
+            font-size: 40px;
+        }
+    </style>
+    <!--Inline Style for example-->
+    <!--it is the strongest one between them but it is not 
+    best practice to apply it ,since the external style can be saved
+    on the servers and can ve later edited it is better to use it outside thehtml file-->
+<!--
+<p style="color: blueviolet;">This Is Paragraph</p> 
+-->
+
+</head>
+<body>
+  <p>This Is Paragraph</p> 
+  <p class="my-p">This Is Paragraph</p> 
+  <!-- it is not best practice to use id in css but it works syntaxly  -->
+  <p id="my-p">This Is Paragraph</p> 
+  <p style="color: blueviolet;">This Is Paragraph</p> 
+  <p class="special">This Is Paragraph</p> 
+  <p id="identity">This Is Paragraph</p> 
+</body>
+</html>
