@@ -1,0 +1,22 @@
+/*
+    Text Color
+      background-color
+      color
+     Text Shadow 
+     Syntax => text-shadow: H-Shadow (horizontal shadow) V-Shadow(vertical shadow) Blur(الضباب the shadow will be clear or not) Color
+     but it is not so used
+*/
+
+div {
+    background-color: #f9f9f9;
+    /*
+    color: we can do the same thing with background-color:
+    that we can use color name, rgb, hex 
+    */
+    color: blueviolet;
+    text-shadow: 3px 5px 0 red ,
+    2px 1px 0 #3c47e7,
+    1px 0px 0 #e73ccb;;
+    
+    /*text-shadow: 8px -3px 1px red ; */
+    }
