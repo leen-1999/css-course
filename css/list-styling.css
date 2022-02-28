@@ -1,0 +1,36 @@
+ul {
+    list-style-position: outside;
+    /*
+    list style position default olarak outside ile çalışır.
+    eğer listeye bir customization yapılırsa bullet'ı dahile etmez
+    eğer dahil edilmesini istiyorsan inside yaparsın
+    */
+    /* list-style-type: lower-armenian; */ 
+    /*
+    list-style-image:
+    url('sqpurple.gif'); it doesn't work????
+    list style type liste elemanından önceki icon'dur
+    shorthand code: list style type,position,image
+    */
+    /* shorthand code*/
+    /*list-style: armenian inside url('/media/examples/rocket.svg');*/
+    list-style: armenian inside none;
+    /* to clear all customization in ul you can use this
+    is used to reset the ul*/
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+   
+    li {
+      /*
+     - list-style-position: outside; to let the bullet of items (. dot sign) out of the item so when 
+      you customize the item the customization will not be applied on the bullet
+     -list-style-position: inside;
+      the customization will be applied on the bullet
+     - list-style-image: url(); if you want to add an image as an item marker for items
+      */
+      background-color: #EEE;
+      margin-bottom: 20px;
+     
+    } 
