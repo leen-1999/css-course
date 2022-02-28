@@ -1,0 +1,31 @@
+/*
+  Font Family
+*/
+
+/* wabe safe fonts for html and css*/
+/* fonts.google.com*/
+
+body {
+    font-family: 'Cairo', sans-serif;
+    
+}
+
+/*
+.with-ser {
+    font-family: 'Times New Roman', Times, serif;
+}
+.san-ser {
+    font-family: Arial, Helvetica, sans-serif;
+}
+*/
+/*
+.with-ser,
+.san-ser {
+    background-color: #ddd;
+    padding: 10px;
+} */
+
+div {
+    background-color: #ddd;
+    padding: 10px;   
+}
