@@ -1,0 +1,23 @@
+div {
+    /* background it is the comprehensive one since it involvesthe other properties also*/
+        background-color: aqua; 
+    /*padding takes 4 iinputs if you give it one of them it will take the 4 inputs as that you give */
+    /* Top Right Bottom Left */
+    /*10px 10px 10px 10px */
+    /* padding: 10px; */
+    
+    /* Top Right Bottom Left */
+    /*10px 20px 10px 20px */
+    /* padding: 10px 20px; */
+    
+    /* Top Right Bottom Left */
+    /*10px 20px 15px 20px */
+    /*padding: 10px 20px 15px;*/
+    
+    /* padding-bottom: 10px; = padding: 0px 0px 10px*/
+    padding-bottom: 10px;
+    padding-top: 10px;
+    
+    /* padding takes px and % values and not the negative values since there are kinds of padding takes neg. values*/
+    }
+    
