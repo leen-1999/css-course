@@ -1,0 +1,45 @@
+/*
+  Text Alignment
+    Alignment
+    Direction
+    Vertical Alignment
+*/
+
+div {
+    background-color: #f9f9f9;
+    text-align: center;
+    direction: ltr;
+    /*
+    محازاة text-align takes the text as it with everything with it
+    and the changes the place of it but as it 
+    where the direction specify the direction of page so when you put
+    direction: rtl; the dot at the end will appear at the left and when
+    direction: ltr; the dot at the end will appear at the right 
+    */
+    /*
+    text-align: center;
+    text-align: right;
+    text-align: left;
+    */
+    /*
+vertical-align consider the position or the alignment of image with the text            
+    */
+}
+
+div img{
+    vertical-align: text-top;
+    /*  vertical-align: text-top; */
+    }
+  
+
+   /* or you can use the class of image to vertical align
+   either   vertical-align: bottom;  or vertical-align: text-bottom;
+   .image {
+    vertical-align: bottom; 
+    vertical-align: text-bottom;
+   }
+   or 
+    img {
+    vertical-align: middle;
+  }
+ 
