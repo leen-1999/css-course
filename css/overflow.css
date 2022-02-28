@@ -1,0 +1,30 @@
+div {
+    width: 150px;
+    height: 150px;
+    background-color: #eee;
+    margin: 20px auto;
+    border-radius: 6px;
+    overflow: auto;
+/* overflow  situations
+
+--- overflow: visible;
+/*
+    overflow: visible; visible it is the default value and it  means the overflow part will appear 
+    and it is the same if you don't put overflow: visible; that at the 
+    two situations the extra part(overflow) will appear
+    
+---   overflow: hidden;
+    which hide the overflow part
+
+--- overflow: scroll;
+    don't hide and don't overflow but if the content become less the vision will be bad  because the scroll still there
+
+---  overflow: auto;
+    if the content get bigger the scroll will appear if doesn't it won't    
+
+--- you can controle the directins of overflow as
+    overflow-x: hidden;
+    overflow-y: hidden;    
+*/
+  
+}
