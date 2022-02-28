@@ -1,0 +1,19 @@
+div {
+    background-color: red;
+    margin: 10px 0;
+    /*
+        display: none to disappear the element */
+   /* display: none;*/
+   /* the default value of  visibility is visible*/
+
+}
+
+.first {
+    /*display: none;*/
+    /* When you hide the element by display: none; the next element 
+        will appear int hidden element's place*/ 
+    visibility: hidden;
+    /* hide the element but holds its place on work flow*/
+    
+}
+
