@@ -1,0 +1,29 @@
+/*
+  Text Spacing
+    Letter Spacing
+    Indentation
+    Line Height
+    Word Spacing + Wraping + White Space
+*/
+
+div {
+    background-color: #ada9a9;
+    letter-spacing: 2px;
+    text-indent: 100px; /* to let a space before text it can be used to show codes*/
+    line-height: 1.6;/* is the height between lines vertically
+                    100% 1.5=>150% 1.6=>160%  the most used one is 1.6 or 1.7*/
+    word-spacing: 5px;    /* it is not so used*/
+    width: 300px;  
+       white-space: normal;  
+       /*
+       white-space: nowrap; 
+       white-space: normal; 
+       */ 
+       word-break: normal;  
+       /*
+     The word-break property specifies 
+     how words should break when reaching the end of a line.
+     word-break: normal|break-word|break-all|keep-all ; 
+
+       */   
+}
