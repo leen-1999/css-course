@@ -1,0 +1,30 @@
+.one {
+    border-bottom: 2px solid red;
+    color: red;
+}
+.two {
+    border-bottom: 2px solid green;
+    color: green;
+}
+.three {
+    border-bottom: 2px solid blue;
+    color: blue;
+}
+.four {
+    border-bottom: 2px solid black;
+    color: black;
+}
+
+.one,
+.two,
+.three,
+.four,
+p,
+.my-p {
+    /*
+    grouping multiple selectors to controle the common prperties easier
+    */
+    padding: 15px;
+    margin: 12px 0;
+    background-color: #ededed;
+}
