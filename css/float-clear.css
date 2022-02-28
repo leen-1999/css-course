@@ -1,0 +1,23 @@
+/*
+  Float
+  Clear
+*/
+
+.parent {
+    background-color: red;
+    padding: 10px;
+}
+
+.parent div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    width: 25%; /* the parent element has 100% and each element has 25 25*4=100*/
+    float: left;/* العنصر يعوم في الصفحة*/
+}
+
+.clear {
+    /*clear: left|right|both;*/
+    clear: both;  /*clear şs used to reset the layout after using float*/
+}
