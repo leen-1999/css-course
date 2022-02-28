@@ -1,0 +1,14 @@
+div {
+    background-color: blueviolet;
+    width: 300px;
+    padding: 10px;
+    border-left: 10px solid rgb(184, 147, 92);
+    /* outline unlikely with border you  can't adjust from 4 directions but just by one  */
+  /* outline-style: dashed;
+   border-style: dotted dashed solid solid;*/
+   border: 10px solid red;
+   outline: 10px solid rgb(68, 0, 255);
+    border-radius: 30px;
+    /* Actually you will not use outline because border can  do everything and you can do everything can outline does but with border */
+
+}
