@@ -1,0 +1,126 @@
+
+ /* Selector {
+    property: Value;
+    propertyTwo: Value 
+}  */
+    /* 
+    Selector specifies the part you deal, it can be class, id, or the elemnt name 
+    if you have one property you can declare it like that propertyTwo: Value without semicolon
+    but if you have sequence of properties you have to use colon after each of them
+    */
+
+    p {
+        color:sandybrown;
+        font-size: 40px;
+    }
+    p {
+        color:rgb(47, 141, 165);
+        font-size: 40px;
+    }
+    
+    /*
+    the last value for property you have it will be applied
+    p {
+        color:sandybrown;
+        font-size: 40px;
+    }
+    p {
+        color:tomato;
+        font-size: 40px;
+    }
+    */
+    
+    /* .class_name  */
+    .my-p {
+        color:slateblue;
+        font-size: 40px;
+        }
+        
+        /* #id  */
+        #my-p {
+            color:yellowgreen
+            }
+    
+            /*
+                p {
+                }
+                target all paragraphs I have 
+                for this example if you delete the next lines
+    
+                        .my-p {
+                color:slateblue;
+                font-size: 40px;
+                }
+        
+                /* #my-p {
+                color:yellowgreen
+                }
+                you will see the 3 paragraphs in sandybrown color
+            */
+    
+            /*
+                #id {
+                }
+    
+                .class_name {
+                } 
+                looks for any element have this id or this class name
+    
+                p {
+                } 
+                looks for every paragraph I have
+            */
+            .-test {
+                color:darkgreen;
+                font-size: 40px
+            }
+     
+            div {
+                background-color: red; /*Color Name */
+                /*  rgb(0 0 0 ) black  rgb(250 250 250 ) white 
+                every color has intensity كثافة 0-250*/
+                background-color: rgb(0 0 0 / 50%); /*Red Green Blue Alpha Channel الشفافية */
+                background-color:#FF0000; /*Color Hex Code */
+                background-image: url(../images/1_WXeX5L11JGvCTmmS7f-4qg.png);
+                background-repeat: no-repeat ; /* default value is  repeat to repeat the image at everywhere
+                                           repaet
+                                            no-repeat 
+                                            repeat-x repeat horizontaly
+                                            repeat-y  repeat vertically
+                                            */
+              /*  background-attachment: fixed; /*
+                                                scroll: is a defaul value forbackground-attachment
+                                                that the picture doesn't scrol with the content
+                                                fixed: when you scrol the content the picture also scrolled with you
+    
+                                                */
+               /* background-position: 50% 50%; /*
+                                                left top :
+                                                background-position-x: left;
+                                                background-position-y: top; 
+                                                left center
+                                                left bottom
+    
+                                                right bottom
+                                                right center
+                                                right top
+    
+                                                center top
+                                                center center
+                                                center bottom
+    
+                                                not: if you want the other value as center you can not to write it it wiil appear automatically
+                                                100px 200px => left top
+                                                20% 0  => left top 
+                                                50% 50%  cenetr center
+                                                */
+    
+                background-size: 100% 50%;  /*
+                                        auto : like you don't add this property that it let the page in its nature view
+                                        cover :it covers all the content there is can the image be strached or cutted to full the content unlike with
+                                        contain : full the content with its nature volume
+                                        100px 200px width height
+                                        100% 50%  width height
+                                        */
+            }
+    
