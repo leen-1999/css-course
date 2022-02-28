@@ -1,0 +1,35 @@
+/*
+  Font Style
+  Font Variant
+  Font Weight
+*/
+
+div {
+    /*font-style:italic; 
+    to reset font-style: normal */
+    /* it is not so used (font style and font variant)
+    
+    italic  have the same role with oblique but it differes with font type */
+
+ /*   font-variant: small-caps; to reset
+    font-variant: normal;*/
+ /* it makes the same thing with uppercase but a little bit small size according to uppercase */
+
+    font-weight: bold;/* it takes value from 100 to 900
+    to reset this you can use */
+    font-weight: normal;
+    
+}
+
+p {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
