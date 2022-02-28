@@ -1,0 +1,19 @@
+/*
+  Text Overflow
+*/
+
+div {
+    background-color: #ddd;
+    padding: 10px;
+    width: 200px;
+    white-space: nowrap;
+    overflow: hidden;/* to hide the overflow part from user */
+    text-overflow: ellipsis; 
+}
+
+/*to let the user see the overflow part do the next codes
+or we can do other way by html using title tag so when you come
+over the lines on browser it will show you the title completly */
+div:hover {
+    overflow: visible;
+} 
