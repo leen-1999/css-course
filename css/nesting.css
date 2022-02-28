@@ -1,0 +1,9 @@
+div p {
+    /* div p  make us able to reach to thep inside the div
+        by reaching to the up element which is div then the one inside it */
+    color: rgb(206, 19, 34);
+}
+div .special {
+    /*div .special that means you look to element inside the div with class name special */
+    color: darkblue;
+}
