@@ -1,0 +1,35 @@
+/*
+   Calc
+*/
+
+body {
+    margin: 0px;
+}
+
+div {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background-color: #eee;
+    float: left;
+    width: Calc( (100% - 60px) / 5);
+    margin-left: 10px;
+    
+}
+
+/*
+   content width is : 100%
+   6 spaces 1% * 6 => 6% from content width
+   94% available space
+   5 elements the width is: 94% / 5 => 18.8%  =>Calc( 88% / 5)
+
+   note: if you want the spaces between element doesn't change according to the screen so insread of using % you can use pixels
+   content width is: 100%
+   6 spaces 10*6 => 60 from content width
+   100% - 60px available is: (100% - 60px) / 5
+*/
+
+/*
+if you want to make spaces just between elemnts so the spaces => elements number-1
+if you want to make spaces after and before elements the space number =>elments number+1
+*/
