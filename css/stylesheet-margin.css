@@ -1,0 +1,17 @@
+div {
+    background-color: blueviolet;
+    padding: 10px;
+    margin: 10px;
+    /* margin same padding takes 4 inputs and deal as it padding
+        but padding it is inside background when margin outside the background
+        and aslo margin takes negative values but padding doesn't*/
+
+        width: 70%;  
+        /* By writing auto the browser will adjust the rest of 100% to the left and rigth
+            and you will not need to make it by hand*/
+     /*   margin-left: auto;
+        margin-right: auto; */
+
+        /* we can use auto with margin for all directions*/
+        margin: auto;
+}
