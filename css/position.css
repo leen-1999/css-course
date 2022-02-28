@@ -1,0 +1,56 @@
+/* 
+  Position 
+    Static => Default : which used to reset the position of element
+    and if you satisfy it as static the position top right bottom left will
+    not affect the element 
+    Relative => the element move according to itself
+        position: relative;
+        top: 20px;
+    Absolute => the element will be outside the workflow like it
+    does not exist, the element moves according to its parent (body, parent ,...)
+    and if the child element has absolute position the parent must have relative position
+    if not when the child elements moves it will exceed the parent 
+    .one {
+    background-color: red;
+    position: absolute;
+}
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
+    Fixed => the element moves according to the page regardless where is it, and it aways moves with scroll
+    Sticky 
+*/
+body {
+    min-height: 5000px;
+}
+
+div {
+  /*
+    color: white;
+    width: 100px;
+  */
+    background-color: red;
+    color: white;
+    padding: 10px;
+    position: sticky;
+    top: 0; /* the sticky will be at the most top that means by top:0*/
+}
+
+.one {
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.two {
+    background-color: green;
+}
+.parent {
+    width: 500px;
+    height: 300px;
+    background-color: blue;
+    position: relative;
+}
